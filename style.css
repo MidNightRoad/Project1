@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
 nav {
     display: flex;
     flex-direction: row;
@@ -24,5 +25,7 @@ body {
     position: absolute;
     align-self: center;
     margin: 6rem;
+    font-family: Quicksand;
+    font-size: 2rem;
     
 }
