@@ -1,28 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
 nav {
     display: flex;
     flex-direction: row;
-    border: red 1px solid;
     height: 4rem;
-      
+    width: 100%;
+    background-color:rgba(255, 255, 255, 0.034) ;
+    justify-content: space-between;
+    position: absolute;
+   
+
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 10rem;
+    margin-right: 2rem;
+    list-style: none;
+    
+}
+li a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
 }
 .logo{
-    display: flex;
+    height: 3rem;
+    margin-top:0.5rem;
+    margin-left:0.5rem;
+    
 }
 body {
-    margin: auto;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
 }
 .heroes{
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    
+    height: 100vh;
 }
-.video{
+video{ 
     height: 100%;
+    object-fit: cover;
 }
 .title{
-    position: absolute;
     align-self: center;
-    margin: 6rem;
-    
+    margin: 4rem;
+    font-family: Quicksand;
+    font-size: 2rem;
+}
+.heroestitle{
+    display: flex;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    height: 100vh
 }
