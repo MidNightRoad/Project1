@@ -27,11 +27,7 @@ li a{
     margin-top:0.5rem;
     margin-left:0.5rem;
 }
-body {
-    margin: 0;
-    padding: 0;
-    background-color: transparent;
-}
+
 .heroes{
     display: flex;
     flex-direction: column;
