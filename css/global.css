@@ -1,0 +1,12 @@
+:root{
+    --primary-color: #05204A;
+    --secondary-color: #CE6A85;
+    --third-color: #E5E9EC;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--third-color)
+}
